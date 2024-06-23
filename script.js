@@ -9,7 +9,7 @@ const appendItem = (container, item, view = 'daily') => {
     todo.classList.add('status-card');
     todo.innerHTML = `
     <div class="status-header">
-              <span>${item.title}</span><img src="/images/icon-ellipsis.svg" />
+              <span>${item.title}</span><img src="/images/icon-ellipsis.svg" alt="Icon Ellipsis"/>
             </div>            
             <div class="status-hours">
               <p class="status-current">${item.timeframes[view].current}hrs</p>              
